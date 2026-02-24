@@ -1,0 +1,98 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 3 password hashes with 3 different salts
+0:00:00:00 Sorting salts, for deterministic salt-resume
+0:00:00:00 Cost 1 (iteration count) is 1000 for all loaded hashes
+0:00:00:00 Command line: john --wordlist=/usr/share/seclists/Passwords/Most-Popular-Letter-Passes.txt --rules unshadowed.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: sha512crypt, crypt(3) $6$ (min-len 0, max-len 26 [worst case UTF-8] to 79 [ASCII])
+0:00:00:00 - Algorithm: SHA512 128/128 SSE2 2x
+0:00:00:00 - Will reject candidates longer than 79 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: /usr/share/seclists/Passwords/Most-Popular-Letter-Passes.txt
+0:00:00:00 - memory mapping wordlist (322069 bytes)
+0:00:00:00 - loading wordfile /usr/share/seclists/Passwords/Most-Popular-Letter-Passes.txt into memory (322069 bytes, max_size=2147483648)
+0:00:00:00 - wordfile had 47603 lines and required 380824 bytes for index.
+0:00:00:00 - 57 preprocessed word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:30 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+0:00:00:30 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+0:00:00:58 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+0:00:01:26 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+0:00:01:56 - Rule #6: '-c <* >2 !?A c $1' accepted as '<*>2!?Ac$1'
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 3 password hashes with 3 different salts
+0:00:00:00 Sorting salts, for deterministic salt-resume
+0:00:00:00 Cost 1 (iteration count) is 1000 for all loaded hashes
+0:00:00:00 Command line: john unshadowed.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: sha512crypt, crypt(3) $6$ (min-len 0, max-len 26 [worst case UTF-8] to 79 [ASCII])
+0:00:00:00 - Algorithm: SHA512 128/128 SSE2 2x
+0:00:00:00 - Will reject candidates longer than 79 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1140 preprocessed word mangling rules
+0:00:00:00 Terminating on error, recovery.c:136
+0:00:02:25 - Rule #7: '<7 >1 !?A l d' accepted as '<7>1!?Ald'
+0:00:02:46 - Rule #8: '>3 !?A l M r Q' accepted as '>3!?AlMrQ'
+0:00:03:14 - Rule #9: '>2 !?A l ^1' accepted as '>2!?Al^1'
+0:00:03:42 - Rule #10: '-c >2 !?X u Q M c Q u' accepted as '>2!?XuQMcQu'
+0:00:04:12 - Rule #11: '<* >2 !?A l $2' accepted as '<*>2!?Al$2'
+0:00:04:41 - Rule #12: '<* >2 !?A l $!' accepted as '<*>2!?Al$!'
+0:00:05:10 - Rule #13: '<* >2 !?A l $3' accepted as '<*>2!?Al$3'
+0:00:05:39 - Rule #14: '<* >2 !?A l $7' accepted as '<*>2!?Al$7'
+0:00:06:07 - Rule #15: '<* >2 !?A l $9' accepted as '<*>2!?Al$9'
+0:00:06:35 - Rule #16: '<* >2 !?A l $5' accepted as '<*>2!?Al$5'
+0:00:07:04 - Rule #17: '<* >2 !?A l $4' accepted as '<*>2!?Al$4'
+0:00:07:33 - Rule #18: '<* >2 !?A l $8' accepted as '<*>2!?Al$8'
+0:00:08:01 - Rule #19: '<* >2 !?A l $6' accepted as '<*>2!?Al$6'
+0:00:08:29 - Rule #20: '<* >2 !?A l $0' accepted as '<*>2!?Al$0'
+0:00:08:57 - Rule #21: '<* >2 !?A l $.' accepted as '<*>2!?Al$.'
+0:00:09:25 - Rule #22: '<* >2 !?A l $?' accepted as '<*>2!?Al$?'
+0:00:09:53 - Rule #23: '/?p @?p >3 l' accepted as '/?p@?p>3l'
+0:00:09:53 - Rule #24: '/?v @?v >3 l' accepted as '/?v@?v>3l'
+0:00:10:07 - Rule #25: '/?w @?w >3 l' accepted as '/?w@?w>3l'
+0:00:10:07 - Rule #26: '-c <7 >1 !?A c d' accepted as '<7>1!?Acd'
+0:00:10:27 - Rule #27: '-c <+ >2 !?A c r' accepted as '<+>2!?Acr'
+0:00:10:55 - Rule #28: '-c >2 !?A l M r Q c' accepted as '>2!?AlMrQc'
+0:00:11:23 - Rule #29: '<7 >1 !?A l d M 'l f Q' accepted as '<7>1!?AldM'lfQ'
+0:00:11:43 - Rule #30: '-c <+ >2 !?A l M r Q c r' accepted as '<+>2!?AlMrQcr'
+0:00:12:12 - Rule #31: '>2 !?A l ^2' accepted as '>2!?Al^2'
+0:00:12:40 - Rule #32: '>2 !?A l ^4' accepted as '>2!?Al^4'
+0:00:13:08 - Rule #33: '-c <* >2 !?A c $2' accepted as '<*>2!?Ac$2'
+0:00:13:36 - Rule #34: '-c <* >2 !?A c $!' accepted as '<*>2!?Ac$!'
+0:00:14:04 - Rule #35: '-c <* >2 !?A c $3' accepted as '<*>2!?Ac$3'
+0:00:14:32 - Rule #36: '-c <* >2 !?A c $9' accepted as '<*>2!?Ac$9'
+0:00:14:41 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 3 password hashes with 3 different salts
+0:00:00:00 Sorting salts, for deterministic salt-resume
+0:00:00:00 Cost 1 (iteration count) is 1000 for all loaded hashes
+0:00:00:00 Command line: john --wordlist=/home/pheobie/rockyou.txt --rules unshadowed.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: sha512crypt, crypt(3) $6$ (min-len 0, max-len 26 [worst case UTF-8] to 79 [ASCII])
+0:00:00:00 - Algorithm: SHA512 128/128 SSE2 2x
+0:00:00:00 - Will reject candidates longer than 79 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: /home/pheobie/rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921507 bytes)
+0:00:00:00 - loading wordfile /home/pheobie/rockyou.txt into memory (139921507 bytes, max_size=2147483648)
+0:00:00:00 - wordfile had 14344392 lines and required 114755136 bytes for index.
+0:00:00:00 - 57 preprocessed word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:16:22 + Cracked gandalf.grey
+0:00:53:57 + Cracked galadriel
+0:01:04:11 + Cracked boromir
+0:01:04:11 Session completed
